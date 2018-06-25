@@ -6,5 +6,5 @@
 python ./setup.py install
 export TFMODEL=$HOME/datasets/output/res152/coco_2014_train+coco_2014_valminusminival
 # detects 'person' class
-detecc *.jpg > objects.json
+python -m detecc *.jpg > objects.json
 ```
